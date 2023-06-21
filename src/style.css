@@ -1,0 +1,32 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.photo-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: calc((100% - 72px) / 3);
+}
+.info {
+  display: flex;
+  max-width: 1158px;
+}
+img {
+  text-align: center;
+  width: 360px;
+  height: 300px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+
+  background-color: #caf0f8;
+  min-width: 1200px;
+}
+
+/* width: calc((100% - 72px) / 3); */
