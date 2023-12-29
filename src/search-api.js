@@ -13,3 +13,5 @@ export async function searchImages(KEY, searchValue, currentPage) {
     throw new Error('Failed to fetch images');
   }
 }
+
+// ------------TEST----------
